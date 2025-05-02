@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     //var Emojis
 
-      private let emojis = ["🥷🏾","😼", "Ｃ", "𝐗","𝐄","😎", "🎭", "🤩", "🫶🏿","🥸Hello World!"]
+      private let emojis = ["🥷🏾","😼", "𝐂", "𝐗","𝐄","😎", "🎭", "🤩", "🫶🏿","🥸Hello World!"]
 
       private var currentEmojiIndex = 0
     
@@ -32,9 +32,9 @@ class ViewController: UIViewController {
 
          textView.font = UIFont.systemFont(ofSize: 100)
 
- //cycle through emoji Hello World
+    //cycle through emoji Hello World
 
-      currentEmojiIndex = (currentEmojiIndex + 1) % emojis.count
+        currentEmojiIndex = (currentEmojiIndex + 1) % emojis.count
     }
     
     
