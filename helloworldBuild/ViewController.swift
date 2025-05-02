@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     //var Emojis
 
-      private let emojis = ["🥷🏾","😼", "Ｃ", "𝐗","𝐄","😎", "🎭", "🤩", "🫶🏿","🥸Hello MSBuild!"]
+      private let emojis = ["🥷🏾","😼", "Ｃ", "𝐗","𝐄","😎", "🎭", "🤩", "🫶🏿","🥸Hello World!"]
 
       private var currentEmojiIndex = 0
     
