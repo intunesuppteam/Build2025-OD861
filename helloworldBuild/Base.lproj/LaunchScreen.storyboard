@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MS-Build2025_AttendeeRegPost_1920x1080_A.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2kY-dY-adp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2kY-dY-adp">
                                 <rect key="frame" x="16" y="118" width="361" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,7 +32,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="MS-Build2025_AttendeeRegPost_1920x1080_A.png" width="1920" height="1080"/>
+        <image name="Image" width="1920" height="1080"/>
         <systemColor name="systemGrayColor">
             <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
