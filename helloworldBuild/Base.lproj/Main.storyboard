@@ -38,13 +38,43 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT8-Cs-fNP">
+                                <rect key="frame" x="231" y="539" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GetLogs"/>
+                                <connections>
+                                    <action selector="getLogs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ywR-De-oEk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrL-9N-CZs">
+                                <rect key="frame" x="237" y="628" width="78" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Logout"/>
+                                <connections>
+                                    <action selector="unEnroll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y1k-aI-xrg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clu-ua-F8d">
+                                <rect key="frame" x="21" y="628" width="66" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <connections>
+                                    <action selector="logInBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxS-Og-cfT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
                     <connections>
+                        <outlet property="getLogs" destination="IT8-Cs-fNP" id="NS4-DG-CP7"/>
                         <outlet property="hwButton" destination="2RZ-fS-dzG" id="58H-sW-TOp"/>
+                        <outlet property="logInBtn" destination="clu-ua-F8d" id="Zkm-HT-Vj6"/>
                         <outlet property="textView" destination="Lr3-Id-6IS" id="7u8-Cc-yMN"/>
+                        <outlet property="unEnroll" destination="DrL-9N-CZs" id="8Uc-g7-3em"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
