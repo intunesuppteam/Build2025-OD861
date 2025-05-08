@@ -11,7 +11,7 @@ Building with the Microsoft Intune SDK: Securing Hello World
 <br>
 Ref:
 <br> 
-https://learn.microsoft.com/en-us/mem/intune/developer/app-sdk-ios-phase3#apps-that-dont-use-adal-or-msal
+https://learn.microsoft.com/mem/intune/developer/app-sdk-ios-phase3#apps-that-dont-use-adal-or-msal
 <br>
 <br>
 <table aria-label="Table 3" class="table table-sm margin-top-none">
